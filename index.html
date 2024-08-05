@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1st task</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <div class="sticky">
+      <nav>
+        <div class="logohumburger">
+          <div class="logo">LOGESH PRO</div>
+          <div class="humburger">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="30"
+              height="30"
+              viewBox="0 0 50 50"
+            >
+              <path
+                d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <div class="navlinks hide">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">SERVICES</a></li>
+          </ul>
+        </div>
+      </nav>
+     </div>
+     <div class="bg01">
+      <img src="bg02.jpg" alt="" width="100%" height="500vh" />
+     </div>
+     <div>
+      <!-- <div class="container">
+        <h1>I Am Logesh</h1>
+        <h2>Web Developer</h2>
+      </div> -->
+      
+    </div>
+    <div class="skills">
+      <h4>Skills</h4><br>
+      <label for="HTML">1.HTML ----- </label><progress max="100" value="80"></progress> 80%<br><br>
+      <label for="CSS">2.CSS ----- </label><progress max="100" value="70"></progress> 70%<br><br>
+      <label for="JAVASCRIPT">3.JAVASCRIPT ------ </label><progress max="100" value="40"></progress> 40%<br><br>
+      <label for="BOOTSTRAP">4.BOOTSTRAP ----- </label><progress max="100" value="20"></progress> 20%<br><br>
+      <label for="MY SQL">5.MY SQL ----- </label><progress max="100" value="40"></progress> 40%<br><br>
+      <label for="C#">6.C# ----- </label><progress max="100" value="60"></progress> 60%
+
+  </div><br>
+  <hr>
+  <br><br>
+  
+  <div class="edu">
+    <h4>Educational Qualification</h4><br><br>
+    <fieldset>
+      <legend>School</legend>
+      <h4>Government Higher Secondary School , Chengalpat. <br>
+        SSLC --- 77% <br>
+        HSC (+2) --- 76.16% 
+      </h4>
+    </fieldset><br><br>
+    <fieldset>
+      <legend>College</legend>
+      <h4>
+        University College Of Engineering , Kancheepuram .
+        (Constituent College Of Anna University , Chennai) 
+                                  
+      </h4>
+    </fieldset>
+  </div><br>
+  <hr>
+  <br>
+  <div class="contact-Details">
+    <h2>Contact Details</h2>
+    <div class="container-details">
+      <h2>Please Enter Your Contact Details</h2>
+      <div class="contact">
+        <input
+          type="text"
+          name="name"
+          required
+          placeholder="Enter Your Name"
+          class="contact_name"
+        /><br />
+        <input
+          type="text"
+          name="email"
+          required
+          placeholder="Enter Your E-mail"
+          class="contact_email"
+        /><br /><br>
+        <h4>
+          Enter Details
+        </h4>
+        <input
+          type=" text area"
+          name="message"
+          required
+          class="contact_message"
+        /><br />
+
+        <input type="button" value="Submit" class="submit_btn" />
+        <input type="button" value="Reset" class="reset_btn" />
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <hr><br>
+  
+    </div>
+
+    <script>
+      document.querySelector(".humburger").onclick = function () {
+        document.querySelector(".navlinks").classList.toggle("hide");
+      };
+    </script>
+  </body>
+</html>
